@@ -1,0 +1,13 @@
+25-micro-bench
+26-bench-rect-drawing
+*.csv
+*.ppm
+
+
+#-everything-after-here-until-the-next-mark-is-cleaned-up-by-make-cleandeps
+deps/*.a
+deps/include/SDL
+
+
+#-everything-after-this-is-never-cleaned-up-by-the-makefile
+deps/*.tar.gz
