@@ -3,7 +3,7 @@ OpenGL 4.5 UI rectangle drawing benchmark
 
 This repository contains the stuff related to the rectangle rendering benchmark I spend a few weeks on.
 
-- [Blog post](http://arkanis.de/weblog/2024-07-10-rectangle-rendering-benchmark) about it
+- [Blog post](http://arkanis.de/weblog/2023-07-10-rectangle-rendering-benchmark) about it
 - `binary` contains the original binaries and data used to gather the results
 - `source` contains the source code
 	- In that directory you can build the benchmark via `make 26-bench-rect-drawing`
